@@ -1,2 +1,56 @@
-# itil-aws-sla-3tier-smartsolve-portal
-ITIL 4–aligned SLA-focused 3-tier support portal on AWS (VPC, ALB, EC2, ECS, EKS, Lambda, S3, RDS, CloudWatch, IAM).
+# SmartSolve Service Portal – ITIL & AWS SLA-Aligned 3-Tier App
+
+**Author:** Samuel Jesse  
+**Goal:** Build a realistic cloud portfolio project that maps **ITIL 4 practices** to an **AWS 3-tier architecture**, with clear SLAs and operational monitoring.
+
+## Business Context
+
+SmartSolve IT is a fictional managed services provider that offers IT support to small businesses.  
+This project implements a small **IT support portal** where users can:
+
+- Raise incidents and service requests
+- Track ticket status and priority (P1, P2, P3)
+- View basic SLA information (target response and resolution times)
+
+The application is designed and operated using **ITIL 4 practices** and deployed on **AWS** within Free Tier / low-cost limits.
+
+## Architecture (Planned)
+
+- **Networking**
+  - Amazon VPC, public & private subnets
+  - Application Load Balancer (ALB)
+  - Route 53 for DNS (public or private hosted zone)
+
+- **Compute**
+  - EC2 instances for the web & application tier
+  - ECS for a containerised microservice (later)
+  - EKS (demo cluster only, for portfolio)
+  - Lambda functions for automation & reporting
+
+- **Storage & Data**
+  - S3 for static assets and logs
+  - RDS (MySQL/PostgreSQL) for tickets, users, and SLA data
+
+- **Operations & Governance**
+  - CloudWatch metrics, logs, dashboards, alarms
+  - IAM roles and policies following least privilege
+  - Billing alarms to keep monthly cost under **$25**
+
+## ITIL 4 Practices Demonstrated
+
+- Service level management
+- Service design & architecture management
+- Change enablement (GitHub-based)
+- Incident & problem management (simulated scenarios)
+- Monitoring & event management (CloudWatch)
+- Information security management (IAM & security groups)
+- Continual improvement (Improvement log in `/docs`)
+
+## Repository Structure (Planned)
+
+- `/docs` – ITIL documents (Service description, SLA, runbooks, improvement log)
+- `/infra` – Infrastructure definitions (manual steps at first, later IaC)
+- `/app` – Application code (web portal, APIs)
+- `/monitoring` – Dashboards, alerts, and operational scripts
+
+> **Status:** Just started. Repo currently contains the initial service description and plan. Infrastructure and code will be added step by step.

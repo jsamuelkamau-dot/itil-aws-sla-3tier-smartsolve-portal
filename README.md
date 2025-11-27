@@ -15,6 +15,10 @@ This project implements a small **IT support portal** where users can:
 The application is designed and operated using **ITIL 4 practices** and deployed on **AWS** within Free Tier / low-cost limits.
 
 ## Architecture 
+## High-Level Architecture Diagram
+
+![SmartSolve 3-Tier Architecture](docs/diagrams/smartsolve-3tier-v1.png)
+
 
 - **Networking**
   - Amazon VPC, public & private subnets

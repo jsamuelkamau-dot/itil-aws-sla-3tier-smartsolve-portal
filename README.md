@@ -17,8 +17,8 @@ The application is designed and operated using **ITIL 4 practices** and deployed
 ## Architecture 
 ## High-Level Architecture Diagram
 
-![SmartSolve 3-Tier Architecture](<img width="308" height="398" alt="Screenshot 2025-11-28 000322" src="https://github.com/user-attachments/assets/ce68f166-1dd3-47e0-9982-9f9f180a64cf" />
-)
+<img width="308" height="398" alt="Screenshot 2025-11-28 000322" src="https://github.com/user-attachments/assets/4ad19d10-dfa5-433f-8163-48a42aedfccb" />
+
 
 
 - **Networking**

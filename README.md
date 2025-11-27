@@ -46,15 +46,6 @@ The application is designed and operated using **ITIL 4 practices** and deployed
 - Information security management (IAM & security groups)
 - Continual improvement (Improvement log in `/docs`)
 
-## Repository Structure (Planned)
-
-- `/docs` – ITIL documents (Service description, SLA, runbooks, improvement log)
-- `/infra` – Infrastructure definitions (manual steps at first, later IaC)
-- `/app` – Application code (web portal, APIs)
-- `/monitoring` – Dashboards, alerts, and operational scripts
-
-> **Status:** Just started. Repo currently contains the initial service description and plan. Infrastructure and code will be added step by step.
-
 ## How SLAs Map to AWS Services
 
 This project demonstrates how ITIL 4 Service Level Management translates into AWS architecture:
@@ -73,3 +64,12 @@ This project demonstrates how ITIL 4 Service Level Management translates into AW
 
 - **Security SLA →**  
   IAM least privilege, Security Group controls, CloudTrail logs.
+
+  ## Repository Structure (Planned)
+
+- `/docs` – ITIL documents (Service description, SLA, runbooks, improvement log)
+- `/infra` – Infrastructure definitions (manual steps at first, later IaC)
+- `/app` – Application code (web portal, APIs)
+- `/monitoring` – Dashboards, alerts, and operational scripts
+
+  > **Status:** Just started. Repo currently contains the initial service description and plan. Infrastructure and code will be added step by step.

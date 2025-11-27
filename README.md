@@ -54,3 +54,22 @@ The application is designed and operated using **ITIL 4 practices** and deployed
 - `/monitoring` – Dashboards, alerts, and operational scripts
 
 > **Status:** Just started. Repo currently contains the initial service description and plan. Infrastructure and code will be added step by step.
+
+## How SLAs Map to AWS Services
+
+This project demonstrates how ITIL 4 Service Level Management translates into AWS architecture:
+
+- **Availability SLA (99.9%) →**  
+  Achieved using ALB health checks, multi-AZ EC2 deployment, and CloudWatch uptime metrics.
+
+- **Performance SLA →**  
+  Measured with ALB TargetResponseTime and RDS read/write latency.
+
+- **Incident Response SLA →**  
+  CloudWatch alarms notify when thresholds are breached (CPU, 5XX errors, RDS free storage).
+
+- **Capacity & Scalability →**  
+  Auto Scaling (later) ensures capacity meets demand while staying within SLA.
+
+- **Security SLA →**  
+  IAM least privilege, Security Group controls, CloudTrail logs.

@@ -17,7 +17,8 @@ The application is designed and operated using **ITIL 4 practices** and deployed
 ## Architecture 
 ## High-Level Architecture Diagram
 
-<img width="308" height="398" alt="Screenshot 2025-11-28 000322" src="https://github.com/user-attachments/assets/4ad19d10-dfa5-433f-8163-48a42aedfccb" />
+<img width="537" height="488" alt="Screenshot 2025-11-27 234439" src="https://github.com/user-attachments/assets/23990a27-cd07-48b3-9db6-c1fa6f6c943f" />
+
 
 
 

@@ -14,7 +14,7 @@ This project implements a small **IT support portal** where users can:
 
 The application is designed and operated using **ITIL 4 practices** and deployed on **AWS** within Free Tier / low-cost limits.
 
-## Architecture (Planned)
+## Architecture 
 
 - **Networking**
   - Amazon VPC, public & private subnets

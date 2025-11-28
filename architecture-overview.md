@@ -1,8 +1,8 @@
 # SmartSolve Service Portal – Architecture Overview
 
 **Author:** Samuel Jesse  
-**Version:** 0.1 (Draft)  
-**Last Updated:** (today’s date)  
+**Version:** 0.1  
+**Last Updated:** 27/11/2025 
 
 ---
 

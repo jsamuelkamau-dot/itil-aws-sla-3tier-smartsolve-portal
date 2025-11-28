@@ -2,8 +2,8 @@
 
 **Author:** Samuel Jesse  
 **Service:** SmartSolve Service Portal  
-**Version:** 0.1 (Draft)  
-**Last Updated:** (today’s date)
+**Version:** 0.1   
+**Last Updated:** 27/11/2025
 
 ---
 

@@ -19,6 +19,7 @@ The application is designed and operated using **ITIL 4 practices** and deployed
 
 <img width="537" height="488" alt="Screenshot 2025-11-27 234439" src="https://github.com/user-attachments/assets/23990a27-cd07-48b3-9db6-c1fa6f6c943f" />
 
+<img width="840" height="431" alt="Smartsolve" src="https://github.com/user-attachments/assets/78196b97-0d95-48bc-9e22-ec38e02c8459" />
 
 
 

@@ -28,7 +28,7 @@ The application is designed and operated using **ITIL 4 practices** and deployed
   - Application Load Balancer (ALB)
   - Route 53 for DNS (public or private hosted zone)
 
-    In the ap-southeast-2 (Sydney) region I:
+  **In the ap-southeast-2 (Sydney) region I**
     
 • Created a dedicated VPC (10.0.0.0/16)
 

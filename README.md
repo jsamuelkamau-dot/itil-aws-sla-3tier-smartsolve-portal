@@ -39,7 +39,6 @@ The application is designed and operated using **ITIL 4 practices** and deployed
 • Kept the database tier in private subnets with no direct internet route
 
 <img width="938" height="507" alt="VPC Resource Map" src="https://github.com/user-attachments/assets/bf44ccc2-619d-4784-ac06-84a4d43a2098" />
-<img width="780" height="429" alt="step4 2-subnets-created" src="https://github.com/user-attachments/assets/d157bc19-89bf-424b-a438-8c25e86a504b" />
 
 
 - **Compute**
@@ -55,7 +54,33 @@ The application is designed and operated using **ITIL 4 practices** and deployed
 - **Operations & Governance**
   - CloudWatch metrics, logs, dashboards, alarms
   - IAM roles and policies following least privilege
-  - Billing alarms to keep monthly cost under **$25**
+  - Billing alarms to keep monthly cost under
+
+  **Creating the IAM Role for EC2 (SSM)**
+
+This lets you connect securely without any SSH keys, which is modern AWS best practice.
+
+Step-by-step:
+AWS Console → IAM → Roles → Create role
+
+Trusted entity: AWS Service
+
+Use case: EC2
+
+Click Next
+
+Attach these 2 policies:
+
+ **AmazonSSMManagedInstanceCore**
+**CloudWatchAgentServerPolicy (needed for monitoring later)**
+
+Name:
+
+EC2-SSM-Role
+
+Click Create Role
+<img width="1920" height="1200" alt="step5 1-iam-role png" src="https://github.com/user-attachments/assets/57102f42-1630-428d-b8b6-4babd11c6717" />
+
 
 ## ITIL 4 Practices Demonstrated
 

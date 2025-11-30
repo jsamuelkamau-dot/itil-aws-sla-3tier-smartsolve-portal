@@ -72,6 +72,7 @@ Click Next
 Attach these 2 policies:
 
  **AmazonSSMManagedInstanceCore**
+
 **CloudWatchAgentServerPolicy (needed for monitoring later)**
 
 Name:

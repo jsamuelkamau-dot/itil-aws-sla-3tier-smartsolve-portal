@@ -29,10 +29,15 @@ The application is designed and operated using **ITIL 4 practices** and deployed
   - Route 53 for DNS (public or private hosted zone)
 
     In the ap-southeast-2 (Sydney) region I:
+    
 • Created a dedicated VPC (10.0.0.0/16)
+
 • Designed public and private subnets across two Availability Zones
+
 • Attached an Internet Gateway and configured a public route table (0.0.0.0/0 → IGW)
+
 • Kept the database tier in private subnets with no direct internet route
+
 <img width="938" height="507" alt="VPC Resource Map" src="https://github.com/user-attachments/assets/bf44ccc2-619d-4784-ac06-84a4d43a2098" />
 <img width="780" height="429" alt="step4 2-subnets-created" src="https://github.com/user-attachments/assets/d157bc19-89bf-424b-a438-8c25e86a504b" />
 

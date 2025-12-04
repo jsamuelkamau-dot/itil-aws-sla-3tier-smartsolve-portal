@@ -141,13 +141,21 @@ For simplicity and cost reasons, the **application tier runs on the same EC2 ins
 
 - **Create load balancer**
 - 
+- 
 <img width="945" height="516" alt="Create load balancer" src="https://github.com/user-attachments/assets/6eb3c3c3-9312-4174-a5fd-cc38ca5cefab" />
 
 **step6.2-target-group**
+
 
 <img width="952" height="516" alt="step6 2-target-group" src="https://github.com/user-attachments/assets/e312fc85-9438-4b0f-9590-6d964b8f6f67" />
 
 **step6.4-alb-browser**
 
+
 <img width="959" height="383" alt="step6 4-alb-browser" src="https://github.com/user-attachments/assets/f8abe057-7fd6-4442-9dfe-3af07f687337" />
+
+**ALB Resource map**
+
+
+![ALB Resource map NEW](https://github.com/user-attachments/assets/773f36a0-87f4-435f-a6d5-4f32913e42e7)
 

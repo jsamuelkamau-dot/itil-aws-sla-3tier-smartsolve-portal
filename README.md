@@ -75,31 +75,17 @@ Restricting EC2 instances to accept HTTP only from the ALB security group
   - CloudWatch metrics, logs, dashboards, alarms
   - IAM roles and policies following least privilege
   - Billing alarms to keep monthly cost under
+ 
+      **What I implemented:**
 
-  **Creating the IAM Role for EC2 (SSM)**
-
-This lets you connect securely without any SSH keys, which is modern AWS best practice.
-
-Step-by-step:
-AWS Console → IAM → Roles → Create role
-
-Trusted entity: AWS Service
-
-Use case: EC2
-
-Click Next
-
-Attach these 2 policies:
-
- **AmazonSSMManagedInstanceCore**
-
-**CloudWatchAgentServerPolicy (needed for monitoring later)**
-
-Name:
-
-EC2-SSM-Role
-
-Click Create Role
+-Created an IAM Role for EC2 with:
+AmazonSSMManagedInstanceCore for secure keyless management
+CloudWatchAgentServerPolicy to support monitoring and sla metrics, this ensures all administrative access is logged and auditable.
+-Launched EC2 instances in ap-southeast-2a and ap-southeast-2b
+-Enabled SSM for secure, keyless access (no ssh keys needed)
+-Installed a lightweight web application via systems manager Run Command
+-Configured security groups following least-privilege principles
+-Prepared the environment for the application load balancer that will enforce health checks and sla standards
 <img width="1920" height="1200" alt="step5 1-iam-role png" src="https://github.com/user-attachments/assets/57102f42-1630-428d-b8b6-4babd11c6717" />
 
 

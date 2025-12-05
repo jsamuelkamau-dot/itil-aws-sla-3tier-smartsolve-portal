@@ -33,7 +33,7 @@ The visual diagram representation highlights:
 **-Pulsing green:** health checks
 
 
-
+**I have attached a video below:**
 
 https://github.com/user-attachments/assets/2032ebe5-35cc-47d2-87ff-2ba61d2c0006
 
@@ -98,7 +98,9 @@ Restricting EC2 instances to accept HTTP only from the ALB security group
 
 <img width="945" height="516" alt="Create load balancer" src="https://github.com/user-attachments/assets/42697d70-660e-4557-a9e4-6ff36b173dac" />
 
-**I have attached a vedio showing:**
+
+
+**I have attached a video showing this:**
 
 Browser showing the ALB URL in the address bar and the page content.
 

@@ -29,6 +29,7 @@ I designed a visual network architecture diagram for the 3-tier application repr
 **-routing**
 
 **-security groups**
+
 <img width="840" height="431" alt="Smartsolve" src="https://github.com/user-attachments/assets/78196b97-0d95-48bc-9e22-ec38e02c8459" />
 
 **Scurity in depth visual diagram**
@@ -100,8 +101,11 @@ Restricting EC2 instances to accept HTTP only from the ALB security group
 **Attached is the screenshot and video**
 
 **HEALTHY TARGETS SCREENSHOT**
+
 <img width="944" height="520" alt="step6 3-targets-healthy" src="https://github.com/user-attachments/assets/d37e7602-62c7-4284-a199-4f5229bc810a" />
+
 **CREATED LOAD BALANCER SCREENSHOT**
+
 <img width="945" height="516" alt="Create load balancer" src="https://github.com/user-attachments/assets/42697d70-660e-4557-a9e4-6ff36b173dac" />
 
 
@@ -158,8 +162,11 @@ https://github.com/user-attachments/assets/0006ad9f-3198-499d-a014-84d5e37b3d5b
 
 
 **EC2 RUNNING SCREENSHOT**
+
 <img width="934" height="518" alt="step5 3-ec2-running" src="https://github.com/user-attachments/assets/1d12bab8-6d21-4528-b3f5-b4064f70c5f0" />
+
 **SYSTEM MANAGER SSM SCREENSHOT**
+
 <img width="951" height="490" alt="System manager SSM" src="https://github.com/user-attachments/assets/24f025d4-a5bf-47ef-8185-e3174f84fbfd" />
 
 **SECURITY GROUPS SCREENSHOT**

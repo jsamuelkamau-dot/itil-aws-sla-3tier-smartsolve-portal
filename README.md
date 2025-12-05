@@ -32,7 +32,11 @@ The visual diagram representation highlights:
 
 **-Pulsing green:** health checks
 
-file:///C:/Users/cc/OneDrive/Desktop/aws/smartsolve-aws-diagram%20(3)NEW.svg
+
+
+
+https://github.com/user-attachments/assets/2032ebe5-35cc-47d2-87ff-2ba61d2c0006
+
 
 
   **What I implemented:**

@@ -47,6 +47,26 @@ The application is designed and operated using **ITIL 4 practices** and deployed
   - EKS (demo cluster only, for portfolio)
   - Lambda functions for automation & reporting
 
+  **What I implemented:**
+
+  Deployed an Application Load Balancer (ALB) across two Availability Zones in ap-southeast-2 (Sydney)
+
+Created a target group with two EC2 instances (WebA & WebB) running in separate public subnets
+
+Configured HTTP health checks on / so the ALB only routes traffic to healthy nodes
+
+Tightened security by:
+
+Exposing only the ALB to the internet
+
+Restricting EC2 instances to accept HTTP only from the ALB security group
+
+<img width="944" height="520" alt="step6 3-targets-healthy" src="https://github.com/user-attachments/assets/d37e7602-62c7-4284-a199-4f5229bc810a" />
+
+<img width="945" height="516" alt="Create load balancer" src="https://github.com/user-attachments/assets/42697d70-660e-4557-a9e4-6ff36b173dac" />
+
+
+
 - **Storage & Data**
   - S3 for static assets and logs
   - RDS (MySQL/PostgreSQL) for tickets, users, and SLA data

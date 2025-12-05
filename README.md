@@ -71,6 +71,8 @@ https://github.com/user-attachments/assets/2032ebe5-35cc-47d2-87ff-2ba61d2c0006
 
 • Kept the database tier in private subnets with no direct internet route
 
+**Attached is the screenshot**
+
 <img width="938" height="507" alt="VPC Resource Map" src="https://github.com/user-attachments/assets/bf44ccc2-619d-4784-ac06-84a4d43a2098" />
 
 
@@ -93,6 +95,9 @@ Tightened security by:
 Exposing only the ALB to the internet
 
 Restricting EC2 instances to accept HTTP only from the ALB security group
+
+
+**Attached is the screenshot and video**
 
 <img width="944" height="520" alt="step6 3-targets-healthy" src="https://github.com/user-attachments/assets/d37e7602-62c7-4284-a199-4f5229bc810a" />
 
@@ -145,7 +150,7 @@ CloudWatchAgentServerPolicy to support monitoring and sla metrics, this ensures 
 
 -Prepared the environment for the application load balancer that will enforce health checks and sla standards
 
-**I have attached a video below:**
+**I have attached a video below and screenshot:**
 
 
 https://github.com/user-attachments/assets/0006ad9f-3198-499d-a014-84d5e37b3d5b

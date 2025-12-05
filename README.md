@@ -98,6 +98,23 @@ Restricting EC2 instances to accept HTTP only from the ALB security group
 
 <img width="945" height="516" alt="Create load balancer" src="https://github.com/user-attachments/assets/42697d70-660e-4557-a9e4-6ff36b173dac" />
 
+**I have attached a vedio showing:**
+
+Browser showing the ALB URL in the address bar and the page content.
+
+**Sometimes “SmartSolve Web Tier Running – Server A”**
+
+**Sometimes “SmartSolve Web Tier Running – Server B”**
+
+This proves:
+
+ALB is distributing traffic across AZs
+
+Health checks are working
+
+SLA availability design is real (multi-AZ)
+
+https://github.com/user-attachments/assets/20f47a43-c90b-4119-9044-ac8a44acefb8
 
 
 - **Storage & Data**

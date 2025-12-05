@@ -32,7 +32,7 @@ The visual diagram representation highlights:
 
 **-Pulsing green:** health checks
 
-<img width="537" height="488" alt="Screenshot 2025-11-27 234439" src="https://github.com/user-attachments/assets/23990a27-cd07-48b3-9db6-c1fa6f6c943f" />
+file:///C:/Users/cc/OneDrive/Desktop/aws/smartsolve-aws-diagram%20(3)NEW.svg
 
 
   **What I implemented:**

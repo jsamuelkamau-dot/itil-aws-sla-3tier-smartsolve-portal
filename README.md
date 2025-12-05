@@ -157,7 +157,11 @@ https://github.com/user-attachments/assets/0006ad9f-3198-499d-a014-84d5e37b3d5b
 
 
 
-<img width="1920" height="1200" alt="step5 1-iam-role png" src="https://github.com/user-attachments/assets/57102f42-1630-428d-b8b6-4babd11c6717" />
+<img width="934" height="518" alt="step5 3-ec2-running" src="https://github.com/user-attachments/assets/1d12bab8-6d21-4528-b3f5-b4064f70c5f0" />
+
+<img width="951" height="490" alt="System manager SSM" src="https://github.com/user-attachments/assets/24f025d4-a5bf-47ef-8185-e3174f84fbfd" />
+
+
 
 
 ## ITIL 4 Practices Demonstrated

@@ -24,13 +24,13 @@ The application is designed and operated using **ITIL 4 practices** and deployed
 The visual diagram representation highlights:
 
 
--Green: authorised requests
+**-Green:** authorised requests
 
--Red: malicious traffic blocked at the VPC
+**-Red:** malicious traffic blocked at the VPC
 
--Orange: valid users denied at the RDS security group
+**-Orange:** valid users denied at the RDS security group
 
--Pulsing green: health checks
+**-Pulsing green:** health checks
 
 <img width="537" height="488" alt="Screenshot 2025-11-27 234439" src="https://github.com/user-attachments/assets/23990a27-cd07-48b3-9db6-c1fa6f6c943f" />
 
@@ -54,6 +54,8 @@ I designed a visual network architecture diagram for the 3-tier application repr
   - Amazon VPC, public & private subnets
   - Application Load Balancer (ALB)
   - Route 53 for DNS (public or private hosted zone)
+ 
+      **What I implemented:**
 
   **In the ap-southeast-2 (Sydney) region I**
     

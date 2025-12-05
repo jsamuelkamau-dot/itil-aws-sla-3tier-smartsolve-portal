@@ -18,6 +18,7 @@ The application is designed and operated using **ITIL 4 practices** and deployed
 ## High-Level Architecture Diagram
 
   **What I implemented:**
+  
  I set up the VPC, public subnets for the ALB and EC2 instances, and private subnets for the RDS database, with security groups enforcing strict least-privilege access between all tiers.
 
 The visual diagram representation highlights:
@@ -33,10 +34,11 @@ The visual diagram representation highlights:
   **What I implemented:**
 
 I designed a visual network architecture diagram for the 3-tier application representing:
--VPC
--subnets
--routing
--security groups
+
+**-VPC**
+**-subnets**
+**-routing**
+**-security groups**
 <img width="840" height="431" alt="Smartsolve" src="https://github.com/user-attachments/assets/78196b97-0d95-48bc-9e22-ec38e02c8459" />
 
 

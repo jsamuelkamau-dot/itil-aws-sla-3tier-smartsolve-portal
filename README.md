@@ -203,6 +203,26 @@ This project demonstrates how ITIL 4 Service Level Management translates into AW
 - **Security SLA →**  
   IAM least privilege, Security Group controls, CloudTrail logs.
 
+
+## SLA Monitoring & ITIL Event Management (Step 7 Completed)
+
+- Enabled detailed monitoring (1-minute metrics) on EC2 instances
+- Created CloudWatch alarms for:
+  - Application availability (HealthyHostCount < 2)
+  - Performance SLA (TargetResponseTime ≥ threshold)
+  - CPU Utilization for capacity management
+- Built CloudWatch dashboard showing key service metrics
+- SNS alerts notify for SLA breaches / incidents
+
+
+<img width="910" height="512" alt="AWS SNS Email confirmation" src="https://github.com/user-attachments/assets/e3785843-88c8-4e4f-a950-aa952c479449" />
+
+
+<img width="956" height="516" alt="step7 2-availability-alarm" src="https://github.com/user-attachments/assets/13d47298-c874-4e89-852c-41770ccfdb48" />
+
+<img width="950" height="518" alt="step7 2-cpu-alarm" src="https://github.com/user-attachments/assets/09255cfa-b0a4-4d52-8ddc-54bb791662c8" />
+
+
   ## Repository Structure (Planned)
 
 - `/docs` – ITIL documents (Service description, SLA, runbooks, improvement log)

@@ -243,4 +243,4 @@ This project demonstrates how ITIL 4 Service Level Management translates into AW
 - `/app` – Application code (web portal, APIs)
 - `/monitoring` – Dashboards, alerts, and operational scripts
 
-  > **Status:** Just started. Repo currently contains the initial service description and plan. Infrastructure and code will be added step by step.
+  > **Status:** -In Progress. Infrastructure and code will be added step by step.

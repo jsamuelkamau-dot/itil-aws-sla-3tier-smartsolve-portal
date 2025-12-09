@@ -204,7 +204,7 @@ This project demonstrates how ITIL 4 Service Level Management translates into AW
   IAM least privilege, Security Group controls, CloudTrail logs.
 
 
-## SLA Monitoring & ITIL Event Management (Step 7 Completed)
+## SLA Monitoring & ITIL Event Management 
 
 - Enabled detailed monitoring (1-minute metrics) on EC2 instances
 - Created CloudWatch alarms for:
@@ -221,6 +221,19 @@ This project demonstrates how ITIL 4 Service Level Management translates into AW
 <img width="956" height="516" alt="step7 2-availability-alarm" src="https://github.com/user-attachments/assets/13d47298-c874-4e89-852c-41770ccfdb48" />
 
 <img width="950" height="518" alt="step7 2-cpu-alarm" src="https://github.com/user-attachments/assets/09255cfa-b0a4-4d52-8ddc-54bb791662c8" />
+
+##  Database Tier (RDS MySQL)
+
+- Created an RDS subnet group using private subnets in ap-southeast-2a and ap-southeast-2b
+- Added RDS-SG security group allowing MySQL (3306) only from EC2-SG (web tier)
+- Deployed Amazon RDS MySQL (smartsolve-db) in private subnets (no public access)
+- Verified connectivity from EC2-WebA using the internal RDS endpoint
+- Created application database `smartsolve_portal` and dedicated DB user `smartsolve_app`
+
+<img width="959" height="520" alt="step8 5-rds-connection-and-db" src="https://github.com/user-attachments/assets/4bc936d7-b80a-44e9-93cf-972ede777fce" />
+
+<img width="950" height="515" alt="step8 3-rds-creating" src="https://github.com/user-attachments/assets/cf78c5fd-ded5-47d2-b0a8-eca05f8fe2c9" />
+
 
 
   ## Repository Structure (Planned)

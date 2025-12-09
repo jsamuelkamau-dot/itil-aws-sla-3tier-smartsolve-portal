@@ -234,6 +234,12 @@ This project demonstrates how ITIL 4 Service Level Management translates into AW
 
 <img width="950" height="515" alt="step8 3-rds-creating" src="https://github.com/user-attachments/assets/cf78c5fd-ded5-47d2-b0a8-eca05f8fe2c9" />
 
+**DATABASE CREATION**
+
+
+
+https://github.com/user-attachments/assets/85c3359a-728e-4837-8af8-3b6789890b19
+
 
 
   ## Repository Structure (Planned)

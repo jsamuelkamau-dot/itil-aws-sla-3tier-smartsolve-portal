@@ -250,6 +250,18 @@ https://github.com/user-attachments/assets/85c3359a-728e-4837-8af8-3b6789890b19
 
 <img width="647" height="398" alt="step9 3-db-connected-webA" src="https://github.com/user-attachments/assets/72041bef-a14f-441f-a2bc-40be9e301c35" />
 
+<img width="818" height="367" alt="image" src="https://github.com/user-attachments/assets/292c4e25-6077-446d-8578-d78bbfbf2a10" />
+
+**Database connection Test Through the ALB(vedio attached)**
+
+
+
+
+
+https://github.com/user-attachments/assets/9258de1c-e96b-44a9-916a-c626b6beacf0
+
+
+
 
 
 

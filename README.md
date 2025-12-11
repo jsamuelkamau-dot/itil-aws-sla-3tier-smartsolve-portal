@@ -240,6 +240,17 @@ This project demonstrates how ITIL 4 Service Level Management translates into AW
 
 https://github.com/user-attachments/assets/85c3359a-728e-4837-8af8-3b6789890b19
 
+## Step 9 – Application Tier Connected to RDS (3-Tier Integration)
+
+- Installed PHP and MySQL client libraries on EC2-WebA and EC2-WebB
+- Created db-test.php to validate connectivity to the RDS MySQL database
+- Successfully connected from both EC2 instances using internal RDS endpoint
+- Verified full 3-tier communication through ALB → EC2 → RDS
+- Demonstrated high availability and load balancing at the application tier
+
+<img width="647" height="398" alt="step9 3-db-connected-webA" src="https://github.com/user-attachments/assets/72041bef-a14f-441f-a2bc-40be9e301c35" />
+
+
 
 
   ## Repository Structure (Planned)

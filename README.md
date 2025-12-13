@@ -262,7 +262,64 @@ https://github.com/user-attachments/assets/9258de1c-e96b-44a9-916a-c626b6beacf0
 
 
 
+# SmartSolve Ticketing Portal – Database Schema 
 
+Database: `smartsolve_portal`
+
+## Tables
+
+- `users`  
+  Stores portal users (admins, agents, and later customers). Includes role, status, and timestamps.
+
+- `ticket_categories`  
+  Classification of tickets (Incident, Request, Billing, Access Issue, etc.).
+
+- `problems`  
+  ITIL Problem Management / Known Error records. Root cause, workaround, permanent fix.
+
+- `tickets`  
+  Core ticket records:
+  - Customer details (name, email)
+  - Subject and description
+  - Category and priority
+  - Status workflow: New → In Progress → Waiting on Customer → Resolved → Closed
+  - SLA field (`sla_due_at`)
+  - Link to `problems` for known errors
+  - FULLTEXT index (`ft_tickets_subject_desc`) for similarity matching
+
+- `ticket_comments`  
+  Conversation history and internal notes for each ticket.
+
+- `ticket_status_history`  
+  Audit trail of all status changes, who changed them, and when.
+
+- `ticket_attachments`  
+  Metadata for files attached to tickets (stored in S3 later).
+
+## ITIL Mapping
+
+- Incident & Request Management → `tickets`, `ticket_categories`
+- Problem Management → `problems`, `tickets.problem_id`
+- Service Level Management → `priority`, `sla_due_at`
+- Knowledge / Known Errors → problem records tied to similar tickets
+- Auditability → `ticket_status_history`, `ticket_comments`
+
+**– Create users table (for login & roles)**
+<img width="946" height="514" alt="11 2 – Create users table (for login   roles)" src="https://github.com/user-attachments/assets/d0dbc290-5ea1-42f0-868d-684acb3c2860" />
+
+**– Create ticket_categories table**
+<img width="956" height="517" alt="11 3 – Create ticket_categories table" src="https://github.com/user-attachments/assets/2e322129-aa0a-4b44-820c-2f5d361b4430" />
+
+**Create tickets table (core ticket info + SLA + problem link)**
+
+<img width="953" height="513" alt="11 5 – Create tickets table (core ticket info + SLA + problem link)" src="https://github.com/user-attachments/assets/ade16a25-493b-4d21-9567-fbfdae200985" />
+
+**– Create ticket_status_history table (audit trail)**
+
+<img width="950" height="520" alt="11 8 – Create ticket_status_history table (audit trail)" src="https://github.com/user-attachments/assets/3c3e166f-0daa-468e-a7e3-44f4637f6707" />
+
+**SHOW TABLES**
+<img width="958" height="517" alt="SHOW TABLES" src="https://github.com/user-attachments/assets/2aef9a97-309d-4070-981c-2d9c1fdb43e0" />
 
 
   ## Repository Structure (Planned)

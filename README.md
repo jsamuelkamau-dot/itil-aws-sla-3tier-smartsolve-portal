@@ -240,7 +240,7 @@ This project demonstrates how ITIL 4 Service Level Management translates into AW
 
 https://github.com/user-attachments/assets/85c3359a-728e-4837-8af8-3b6789890b19
 
-## Step 9 – Application Tier Connected to RDS (3-Tier Integration)
+## – Application Tier Connected to RDS (3-Tier Integration)
 
 - Installed PHP and MySQL client libraries on EC2-WebA and EC2-WebB
 - Created db-test.php to validate connectivity to the RDS MySQL database
@@ -259,6 +259,14 @@ https://github.com/user-attachments/assets/85c3359a-728e-4837-8af8-3b6789890b19
 
 
 https://github.com/user-attachments/assets/9258de1c-e96b-44a9-916a-c626b6beacf0
+
+## – SmartSolve Application Layer
+
+- Deployed a simple PHP-based SmartSolve Service Portal on both EC2-WebA and EC2-WebB
+- Application connects to the RDS MySQL database using a shared db.php include
+- Home page displays which web server handled the request plus live database list
+- Verified full 3-tier path through the Application Load Balancer (ALB → EC2 → RDS)
+<img width="364" height="224" alt="Application Layer" src="https://github.com/user-attachments/assets/b857b6dc-edb1-47f6-b934-c4e3ff1cea3a" />
 
 
 

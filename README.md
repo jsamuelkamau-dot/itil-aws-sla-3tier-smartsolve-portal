@@ -354,6 +354,14 @@ feat: working ticket creation with SLA calculation and similarity matching
 
 <img width="944" height="557" alt="ticket-created-similarity" src="https://github.com/user-attachments/assets/d640e686-d122-40bf-ac5e-c8bc6d97bc71" />
 
+## Ticket created successfully via ALB!
+
+
+
+https://github.com/user-attachments/assets/0490cba2-1e4c-4356-bbba-ce440d8238b2
+
+
+
 ### 🏗 Architecture Overview
 - **Web Tier:** EC2 instances across multiple AZs behind ALB
 - **App Logic:** PHP (prepared statements, SLA logic, similarity scoring)

@@ -330,6 +330,46 @@ Database: `smartsolve_portal`
 <img width="958" height="517" alt="SHOW TABLES" src="https://github.com/user-attachments/assets/2aef9a97-309d-4070-981c-2d9c1fdb43e0" />
 
 
+
+
+## 🎫 SmartSolve Service Portal — Ticketing System Live on AWS
+
+successfully built and deployed a custom ITIL-aligned service portal on AWS using a highly available 3-tier architecture.
+feat: working ticket creation with SLA calculation and similarity matching
+
+### 🚀 Key Features Implemented
+- Ticket creation via web UI behind an Application Load Balancer
+- SLA calculation based on ticket priority (Low → Critical)
+- MySQL RDS (private subnet) with strict security group isolation
+- FULLTEXT similarity matching to detect related incidents automatically
+- Known Error / Problem linkage to prevent repeat work
+- Real-time server identification (ALB → EC2 WebA/WebB)
+- Secure architecture (no direct DB access from the internet)
+
+## New-ticket-form
+
+<img width="944" height="545" alt="new-ticket-form" src="https://github.com/user-attachments/assets/695cf9ad-d34d-42f4-bc73-2c7fe2c6788d" />
+
+## Ticket-created-similarity
+
+<img width="944" height="557" alt="ticket-created-similarity" src="https://github.com/user-attachments/assets/d640e686-d122-40bf-ac5e-c8bc6d97bc71" />
+
+### 🏗 Architecture Overview
+- **Web Tier:** EC2 instances across multiple AZs behind ALB
+- **App Logic:** PHP (prepared statements, SLA logic, similarity scoring)
+- **Data Tier:** Amazon RDS (MySQL) in private subnets
+- **Security:** Least privilege SGs, IAM roles, no SSH keys (SSM)
+
+### 🧩 Why This Project Stands Out
+Unlike basic CRUD demos, this project demonstrates:
+- ITIL practices (Incident, SLA, Known Error)
+- Enterprise problem-reduction logic via similarity matching
+- Real AWS networking, security, and availability design
+- Production-style troubleshooting and iteration
+
+**Designed & developed by Samuel Jesse**
+
+
   ## Repository Structure (Planned)
 
 - `/docs` – ITIL documents (Service description, SLA, runbooks, improvement log)

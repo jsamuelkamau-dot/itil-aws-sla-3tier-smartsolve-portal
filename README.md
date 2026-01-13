@@ -376,15 +376,16 @@ Unlike basic CRUD demos, this project demonstrates:
 - Production-style troubleshooting and iteration
 
 -----
-📌### **Project Closure & Outcomes**
-Project Status: Completed (Intentional Closure)
+## 📌 **Project Closure & Outcomes**
+
+## Project Status: Completed (Intentional Closure)
 
 This project has been intentionally concluded after successfully achieving its original and extended objectives.
 
 The SmartSolve Service Portal was designed as a real-world, SLA-aware IT service platform to bridge theory (ITIL 4 + AWS architecture) with hands-on operational experience. Over the course of the build, the project evolved far beyond an academic exercise and became a genuine simulation of enterprise IT service delivery.
 
 ------
-### 🎯 **Key Objectives Achieved**
+## 🎯 **Key Objectives Achieved**
 
 ## ✅ Real-World AWS Architecture Experience
 

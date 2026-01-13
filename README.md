@@ -376,7 +376,7 @@ Unlike basic CRUD demos, this project demonstrates:
 - Production-style troubleshooting and iteration
 
 -----
-📌####**Project Closure & Outcomes**
+📌### **Project Closure & Outcomes**
 Project Status: Completed (Intentional Closure)
 
 This project has been intentionally concluded after successfully achieving its original and extended objectives.
@@ -384,9 +384,9 @@ This project has been intentionally concluded after successfully achieving its o
 The SmartSolve Service Portal was designed as a real-world, SLA-aware IT service platform to bridge theory (ITIL 4 + AWS architecture) with hands-on operational experience. Over the course of the build, the project evolved far beyond an academic exercise and became a genuine simulation of enterprise IT service delivery.
 
 ------
-🎯 ####**Key Objectives Achieved**
+🎯 ### **Key Objectives Achieved**
 
-✅ ##Real-World AWS Architecture Experience
+✅ ## Real-World AWS Architecture Experience
 
 Designed and implemented a production-style AWS 3-tier architecture
 
@@ -413,7 +413,7 @@ Diagnosed and resolved real infrastructure issues (routing, security groups, ALB
 The project was deliberately broken and rebuilt multiple times to simulate real production troubleshooting — not just “happy-path” deployment.
 
 -------
-✅ ##ITIL-Aligned Service Management in Practice
+✅ ## ITIL-Aligned Service Management in Practice
 
 Implemented an ITIL-style incident lifecycle:
 
@@ -434,7 +434,7 @@ SLA visibility
 Audit timestamps
 --------
 
-✅ ##Intelligent Ticket Similarity Matching (Stand-Out Feature)
+✅ ## Intelligent Ticket Similarity Matching (Stand-Out Feature)
 
 One of the most valuable outcomes of this project was the successful implementation of automatic related-ticket matching, a feature commonly found in enterprise ITSM tools.
 
@@ -452,7 +452,7 @@ This feature directly addresses a real operational pain point in IT support envi
 
 ------
 
-✅ ##Certification Outcomes (Primary Success Metric)
+✅ ## Certification Outcomes (Primary Success Metric)
 
 The practical depth gained from this project directly contributed to achieving the following certifications:
 
@@ -475,7 +475,7 @@ Fault isolation
 made AWS exam concepts intuitive rather than theoretical.
 
 ------
-🧠 ##Key Learnings
+🧠 ## Key Learnings
 
 Real AWS environments rarely fail for one reason — issues often span networking, security, IAM, and application layers
 
@@ -486,7 +486,7 @@ SLA awareness must be designed into systems, not added later
 Enterprise value comes from operational intelligence, not just infrastructure
 
 -------
-🛑 ##Why the Project Was Stopped
+🛑 ## Why the Project Was Stopped
 
 The project was intentionally paused after:
 
